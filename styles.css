@@ -1,0 +1,1108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.2s linear;
+    border: none;
+    outline: none;
+}
+
+:root{
+    --orange: #ff7629;
+    --black: #000000;
+    --light-black: #696969;
+    --white: #ffffff;
+    --light-white: #ccc;
+    --bg: #fff9f3;
+    --shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+    --border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+section{
+    padding: 18rem 0;
+}
+
+.container{
+    padding: 0 2.5%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.tittle{
+    font-size: 2.5rem;
+    margin: 1.5rem 0;
+}
+
+.sub-tittle{
+    font-size: 1.8rem;
+    margin: 0 auto 4rem;
+    text-align: center;
+    color: gray;
+    line-height: 3rem;
+    max-width: 770px;
+}
+
+.btn1{
+    margin-right:3rem;
+    color: #000000;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #cccccc;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: DM Sans;
+}
+
+
+
+.btn2{
+    color: #fff;
+    background-color: #FF7629;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+    font-weight: 500;
+    text-align: center;
+    border-width: 1px;
+    border-style: none;
+    border-color: #1890ff;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    font-family: DM Sans;
+}
+
+
+
+
+/* header css starts */
+.header{
+    padding: 2rem 0;
+    margin-bottom:1rem;
+    position: sticky;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img{
+    width: 24.5rem;
+}
+
+
+.navbar .nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar .nav-list li a{
+    font-size: 1.8rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: #696969;
+    margin-right: 2.8rem;
+}
+
+.navbar .cart{
+    font-size: 1.8rem;
+    margin-left: 1.8rem;
+    color: var(--black);
+}
+
+.navbar .cart span{
+    color: var(--orange);
+}
+
+.header button{
+    font-size: 1.6rem;
+    padding: 1rem 2.5rem;
+    margin-top: 0;
+}
+
+.header .menuBtn{
+    padding: 1.5rem 2rem;
+    border-radius: 50%;
+    background-color: var(--orange);
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    display: none;
+}
+
+/* header css ends */
+
+
+/* home section starts */
+.home{
+    background: linear-gradient(to right, var(--white) 64.5%, var(--orange) 35.5%);
+    padding: 4rem 0;
+}
+
+.home .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home .text{
+    padding-left:4.4rem;
+    padding-top:2rem;
+    width: 49%;
+    margin-right: 3rem;
+
+    text-align: left;
+}
+.home .text h1{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.home .text h1 span{
+    color: var(--orange);
+}
+
+.home .text p{
+    text-align: left;
+    font-family: DM Sans;
+    margin-bottom:2rem;
+    font-weight: 500;
+    line-height:2.5rem;
+}
+
+.home .image{
+    margin-right:13rem;
+    width: 35%;
+}
+
+.home .image img{
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: var(--shadow);
+}
+/* home section ends */
+
+
+
+/* app css start */
+.app{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.app h3{
+    padding-top: 6.5%;
+    padding-bottom:2.5rem;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.app .images{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3rem;
+
+}
+
+.app .images img{
+
+    cursor: pointer;
+    margin: 0 3rem;
+}
+
+/* app css end */
+
+
+
+/* menu css strat */
+.menu{
+    margin-left:2.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 0rem;
+    margin-bottom: 5rem;
+}
+
+.menu h3{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 20px;
+    margin:0 auto;
+    padding:0
+}
+
+.menu .box{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #cecece;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.menu p{
+    width: 200px;
+    text-align:left;
+    padding-top:0;
+    line-height:2.3rem;
+    padding-left:1rem;
+    margin-bottom:0;
+    color: #676767;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.menu .box a{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 17px;
+    color: #FF7629;
+}
+
+/* menu css ends */
+
+/* abou css strats */
+.about{
+    padding-top:25rem;
+    padding-bottom:25rem;
+    background-color: var(--bg);
+    
+}
+
+.about .container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.about .image{
+    width: 50%;
+    position: relative;
+}
+
+.about .image img{
+   
+    border-radius: 2rem;
+}
+
+.about .image .visit{
+    
+    position: absolute;
+    left:20rem;
+    top:22.5rem;
+    background-color: var(--white);
+    padding: 5rem ;
+    padding-bottom:4rem;
+    padding-right:7rem;
+    text-align: left;
+    width: 75%;
+    border-radius: 2rem;
+}
+
+.about .image .visit h4{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.about .image .visit .box{
+    display: flex;
+    align-items: flex-start;
+    margin: 2rem 0;
+}
+
+.about .image .visit .box img{
+    margin-right:2rem;
+    width: 2rem;
+}
+
+.about .image .visit p{
+    font-weight:500;
+    width: 50%;
+    font-size:1.5rem;
+    color: #8d8d8d;font-family: DM Sans;
+    
+}
+
+.about .text{
+    text-align: left;
+    padding-left: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 50%;
+}
+.about .text .heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.about .text p{
+    line-height:2rem;
+    text-align: left;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size:1.6rem;
+    color: #8d8d8d;
+    width: 98%;
+    margin-left:0;
+    margin-right:0;
+}
+/* about css ends */
+
+
+
+
+/* menu2 css starts */
+
+.our-menu2 .container .sub-tittle{
+    width: 100%;
+    font-size:1.7rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #727272;
+    text-align: center;  
+    line-height:2.5rem;
+    
+}
+
+.menu2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+}
+
+
+
+.menu2 .box .image{
+    position: relative;
+    overflow: hidden;
+    border-radius: 3rem;
+}
+
+.menu2 .box .image .price{
+    position: absolute;
+    top: 4rem;
+    right: 3rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: 1rem 1.2rem;
+    background-color: var(--white);
+    border-radius: 15px;
+    z-index: 500;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 16px;
+}
+.menu2 .box .tittle{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.menu2 .box .image img{
+    margin-top:3rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    /* width: 90%; */
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu2 .box .check{
+    margin:0;
+    text-align: center;
+
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #686868;
+    font-size: 1rem;
+    margin-bottom:5rem;
+}
+/* menu2 css ends */
+
+
+/* taste css strats */
+.taste{
+    background-color: var(--orange);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.taste .container{
+    width: 46.5%;
+    max-width: 600px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+
+.taste .container h1{
+    margin-left:10rem;
+    width:80%;
+
+    font-size: 3.8rem;
+    color: var(--white);
+    text-align: left;
+}
+.taste .container p{
+    margin-left:10rem;
+
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 16px;
+    width:80%;
+    line-height:2.25rem;
+    color: var(--white);
+    text-align: left;
+    margin-top: 1.5rem;
+}
+
+
+
+.taste .container .btn2{
+    
+    
+    border: 0.1rem solid var(--white);
+}
+
+
+.taste .image {
+    width: 53.5%;
+    overflow: hidden;
+}
+ 
+.taste .image img{
+    width: 100%;
+    display: block;
+}
+/* taste css ends */
+
+
+/* review css start */
+
+.clients .wrapper .heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.clients .wrapper .sub-tittle{
+width: 55%;
+font-size:1.7rem;
+padding-left:2.5rem;
+line-height:2.5rem;
+text-align:left;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #727272;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    row-gap: 10px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #d5d5d5;
+
+}
+
+
+
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stars{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.review .box i{
+    font-size: 2.5rem;
+    color: #ffbe17;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+}
+.review .box .tittle{
+    font-weight: 500;
+}
+
+.review .box p{
+    text-align: left;
+}
+
+.review .box .user{
+    display: flex;
+    align-content: center;
+}
+
+.review .box .user img{
+    width: 7rem;
+    height:7rem;
+    border-radius: 50%;
+}
+
+.review .box .user .text{
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.review .box .user h5{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+    width: 100%;
+}
+
+.review .box .sub-tittle{
+    margin-left:0;
+    padding-left:0;
+   
+    width: 100%;
+    font-size: 1.5rem;
+    margin:0 0;
+    line-height: 2rem;
+    text-align: left;
+    font-family: DM Sans;
+    font-weight: 350;
+    color: #727272;
+}
+.review .box .user .text p{
+    margin: 0;
+    
+}
+/* review css end */
+
+/* article css strat */
+
+.our-article{
+    background-color: var(--bg);
+}
+
+.our-article .head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.our-article .head .heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.article{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.article .left{
+    width:90%;
+    box-shadow: var(--shadow);
+    text-align: left;
+    overflow: hidden;
+    border-radius: 2rem;
+    background-color: var(--white);
+    cursor: pointer;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    
+}
+
+
+.article .left img{
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+
+}
+
+
+
+.article .left .text h2{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.article .left .text p{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 15px;
+    color: #737373;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    text-align: left;
+    
+}
+.article .left .text .text-inside{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 15px;
+    color: #8f8f8f;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.article .right{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+
+.article .right .box{
+    width:95%;
+    
+    background-color: #fffefe;
+   
+    border-radius: 35px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.article .right .box img{
+    width: 100%;
+}
+
+.article .right .box .text{
+    padding: 2rem;
+}
+
+.article .right .box .text p{
+    margin-bottom:1rem;
+    font-size: 1.5rem;
+    color: var(--light-black);
+    text-align: left;
+    font-family: DM Sans;
+    font-weight: 500;
+
+    color: #737373;
+    
+}
+
+.article .right .box .text h3{
+
+    text-align: left;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+/* article css end */
+
+
+
+
+/* booking css start */
+
+.booking{
+    padding:10rem 0;
+    background: linear-gradient(to right, var(--white) 55%, var(--orange) 45%);
+}
+
+
+.booking .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.booking .text{
+    text-align: center;
+    width: 38%;
+    margin-left:4.5rem;
+    margin-top:15rem;
+}
+
+.booking .text .heading{
+    text-align: left;
+    font-size:3.5rem;
+    margin-top: 7rem;
+    font-family: DM Sans;
+    font-weight: 700;
+ 
+    align-self: auto;
+}
+
+.booking .text p{
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.booking .text .address div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.booking .text .address div a{
+    margin: 0;
+    margin-left: 1.5rem;
+    text-align: left;
+}
+
+
+
+.booking .form{
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #d9d4d4;
+    position:relative;
+    right:12rem;
+
+    width: 45%;
+    background-color: var(--white);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    /* border-radius: 2rem; */
+    padding: 5rem 3rem;
+}
+
+.booking .form form{
+    padding:2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.container-sub-tittle{
+ 
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 16px;
+    color: #727171;
+    
+}
+
+
+.booking .form .input-box{
+    width: calc(100% / 2 - 2rem);
+    margin-bottom: 3rem;
+}
+.booking .form span{
+    font-family: DM Sans;
+    font-weight: 500;
+    display: block;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.booking .form .input-box input{
+    box-sizing: border-box;
+    font-variant: tabular-nums;
+    font-feature-settings: tnum, "tnum";
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    padding-right: 15px;
+    color: #000000d9;
+    font-size: 14px;
+    background-color: #fff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 20px;
+    
+}
+.booking .form .note-box{
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
+
+.booking .form .note-box textarea{
+    width: 100%;
+    border: var(--border);
+    border-radius: 3rem;
+    box-shadow: var(--shadow);
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+}
+
+.booking .form .input-box input:valid,
+.booking .form .input-box input:focus{
+    border: 0.1rem solid var(--orange);
+}
+
+.booking .form .note-box textarea:valid,
+.booking .form .note-box textarea:focus{
+    border: 0.1rem solid var(--orange);
+}
+
+/* booking css end */
+
+
+/* instagram css starts */
+.instagram{
+    background-color: var(--bg);
+}
+
+.instagram .container .head .heading{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.instagram .head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.instagram-btn-2{
+    margin:0;
+    padding:0 3rem;
+    height:5rem;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.instagram .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+}
+
+.instagram .images img{
+    width: 82.5%;
+    height: 90%;
+    border-radius: 35px;
+ 
+}
+
+.instagram .images .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2rem), 1fr));
+    margin-left:0;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+/* instagram ends starts */
+
+
+
+
+
+/* footer starts here */
+.footer{
+    padding:11rem 0;    display: flex;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    -moz-column-gap: 40px;
+    column-gap: 40px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:0;
+}
+
+
+.footer .left{
+    width: calc(100% / 3 + 9rem);
+    text-align: left;
+    
+}
+
+.footer .left img{
+    width: 24rem;
+}
+
+
+.footer .left p{
+    text-align: left;
+    font-size:1.65rem;
+    line-height:2rem;
+    margin: 1rem 0;
+    width: 100%;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #6a6868;
+}
+
+.footer .left a{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--orange);
+    text-align: center;
+    color: var(--white);
+    font-size: 1.5rem;
+    margin: 0.8rem;
+    border-radius: 50%;
+    line-height: 3.5rem;
+}
+
+
+
+.footer .middle{
+    width: calc(100% / 3 - 13rem);
+    text-align: left;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer p{
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.footer .middle a{
+    color: var(--light-black);
+    display: block;
+    margin-bottom:1.2rem;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #7f7c7c;
+}
+
+
+.footer .right {
+    width: calc(100% / 3 - 5rem);
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+.footer .right p{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.footer .right .images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(50% - 2rem), 1fr));
+    gap: 2rem;
+}
+
+
+.footer .right .image{
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.footer .right .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+ 
+}
+
+
+/* footer ends here */
+
+
+
+
